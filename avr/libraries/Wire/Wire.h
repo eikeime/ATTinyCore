@@ -22,6 +22,8 @@
 #ifndef TwoWire_h
 #define TwoWire_h
 
+#ifdef TWBR
+
 #include <inttypes.h>
 #include "Stream.h"
 
@@ -80,6 +82,6 @@ class TwoWire : public Stream
 };
 
 extern TwoWire Wire;
-
+#endif
 #endif
 
