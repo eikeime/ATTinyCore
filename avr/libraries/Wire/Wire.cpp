@@ -19,6 +19,8 @@
   Modified 2012 by Todd Krein (todd@krein.org) to implement repeated starts
 */
 
+#ifdef TWBR
+
 extern "C" {
   #include <stdlib.h>
   #include <string.h>
@@ -328,3 +330,4 @@ void TwoWire::onRequest( void (*function)(void) )
 
 TwoWire Wire = TwoWire();
 
+#endif
