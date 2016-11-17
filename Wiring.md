@@ -8,7 +8,7 @@ People often ask about the minimum wiring requirement for an ATTiny based part. 
 * If part has an AVcc pin, that should be connected to Vcc.
 * If part has an AGnd pin, that should be connected to Gnd.
 * If part has an AVcc pin and an AGnd pin, 0.1uf ceramic capacitor between AVcc and AGnd, right next to the chip. 
-* if part has an AVcc pin but no AGnd pin, 0.1uf cerapic capacitor between AVcc and Gnd, right nrxt to the chip. 
+* if part has an AVcc pin but no AGnd pin, 0.1uf cerapic capacitor between AVcc and Gnd, right next to the chip. 
 
 If the power supply is unstable, or the wires from the supply are long, it is highly recommended to put a larger capacitor between power and ground on the board - the appropriate size and type will depend on the loading, voltage, and available space; typical values might range from 10 uf to 1000uf. Aluminum electrolytic caps are commonly used for this purpose. 
 
